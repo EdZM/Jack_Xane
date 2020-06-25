@@ -1995,3 +1995,15 @@
 	left: 0px;
 	top: 5px;
 }
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+     columns: #000000; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
