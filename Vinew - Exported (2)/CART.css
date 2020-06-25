@@ -801,6 +801,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	color: rgba(0,0,0,1);
+	
 }
 #Categoria_X {
 	left: 0px;
@@ -2203,4 +2204,15 @@
 	--web-action-type: page;
 	--web-action-target: HOMEPAGE.html;
 	cursor: pointer;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+     columns: #000000; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
