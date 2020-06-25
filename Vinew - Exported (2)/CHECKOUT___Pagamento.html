@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CHECKOUT - Pagamento</title>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="CHECKOUT___Pagamento.css"/>
-<script id="applicationScript" type="text/javascript" src="CHECKOUT___Pagamento.js"></script>
 </head>
 <body>
 <div id="CHECKOUT_-_Pagamento">
@@ -51,7 +50,7 @@
 					<span>R$ 328.75</span>
 				</div>
 			</div>
-			<div onclick="application.goToTargetView(event)" id="Grupo_162">
+			<div onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer" id="Grupo_162">
 				<svg class="Retngulo_39">
 					<rect id="Retngulo_39" rx="0" ry="0" x="0" y="0" width="133.163" height="49">
 					</rect>
@@ -60,12 +59,12 @@
 					<span>CONTINUE COMPRANDO</span>
 				</div>
 			</div>
-			<div onclick="application.goToTargetView(event)" id="Grupo_163">
+			<div id="Grupo_163">
 				<svg class="Retngulo_39_z">
 					<rect id="Retngulo_39_z" rx="0" ry="0" x="0" y="0" width="133.163" height="49">
 					</rect>
 				</svg>
-				<div id="COMPRAR">
+				<div onclick="location.href='./CHECKOUT___Pagamento.html'" style="cursor: pointer" id="COMPRAR">
 					<span>COMPRAR</span>
 				</div>
 			</div>
@@ -83,7 +82,7 @@
 		<div id="Grupo_5">
 			<div id="Grupo_4">
 				<div id="Carrinho__R000">
-					<span></span><span style="font-size:20px;">Carrinho | R$0,00</span>
+					<span></span><span style="font-size:20px;"><a href="">Carrinho | R$0,00</a></span>
 				</div>
 				<svg class="Caminho_2" viewBox="-25.071 -19.286 26.538 25.463">
 					<path id="Caminho_2" d="M -14.86441802978516 3.862663745880127 C -14.86441802978516 2.59673547744751 -15.78942775726318 1.547823548316956 -16.90582275390625 1.547823548316956 C -18.02221298217773 1.547823548316956 -18.94722366333008 2.59673547744751 -18.94722366333008 3.862663745880127 C -18.94722366333008 5.128592014312744 -18.02221298217773 6.17750358581543 -16.90582275390625 6.17750358581543 C -15.78942775726318 6.17750358581543 -14.86441802978516 5.128592014312744 -14.86441802978516 3.862663745880127 Z M -0.574604868888855 3.862663745880127 C -0.574604868888855 2.59673547744751 -1.499614357948303 1.547823548316956 -2.616006851196289 1.547823548316956 C -3.732398986816406 1.547823548316956 -4.657408237457275 2.59673547744751 -4.657408237457275 3.862663745880127 C -4.657408237457275 5.128592014312744 -3.732398986816406 6.17750358581543 -2.616006851196289 6.17750358581543 C -1.499614357948303 6.17750358581543 -0.574604868888855 5.128592014312744 -0.574604868888855 3.862663745880127 Z M 1.466796875 -15.81348037719727 C 1.466796875 -16.44644355773926 1.00429105758667 -16.97089767456055 0.4460960030555725 -16.97089767456055 L -18.70799446105957 -16.97089767456055 C -18.86748123168945 -17.83896255493164 -18.89937591552734 -19.28573989868164 -19.96792411804199 -19.28573989868164 L -24.05072784423828 -19.28573989868164 C -24.60892295837402 -19.28573989868164 -25.0714282989502 -18.76128196716309 -25.0714282989502 -18.12831878662109 C -25.0714282989502 -17.4953556060791 -24.60892295837402 -16.97089767456055 -24.05072784423828 -16.97089767456055 L -20.79724311828613 -16.97089767456055 L -17.97436714172363 -2.087199211120605 C -18.22954177856445 -1.526573419570923 -18.94722366333008 -0.1702220439910889 -18.94722366333008 0.3904033899307251 C -18.94722366333008 1.023367881774902 -18.48471832275391 1.547823548316956 -17.92652130126953 1.547823548316956 L -1.595305562019348 1.547823548316956 C -1.037110686302185 1.547823548316956 -0.574604868888855 1.023367881774902 -0.574604868888855 0.3904033899307251 C -0.574604868888855 -0.242560863494873 -1.037110686302185 -0.7670168876647949 -1.595305562019348 -0.7670168876647949 L -16.26788139343262 -0.7670168876647949 C -16.10839653015137 -1.128710985183716 -15.88511943817139 -1.508489608764648 -15.88511943817139 -1.924436807632446 C -15.88511943817139 -2.358468532562256 -16.01270866394043 -2.774417400360107 -16.09245109558105 -3.190364837646484 L 0.5577349662780762 -5.3966965675354 C 1.068085432052612 -5.469034671783447 1.466796875 -5.97540807723999 1.466796875 -6.554117679595947 L 1.466796875 -15.81348037719727 Z">
@@ -104,7 +103,7 @@
 					</path>
 				</svg>
 				<div id="Usurio">
-					<span>Usuário</span>
+					<span><a href="">Usuário</a></span>
 				</div>
 			</div>
 		</div>
@@ -124,25 +123,27 @@
 			</div>
 		</div>
 		<div id="Grupo_8">
-			<div id="CATEGORIA">
-				<span>CATEGORIA</span>
+			<div onclick="location.href=''" style="cursor: pointer"  id="CATEGORIA">
+				<span>CATEGORIAS</span>
 			</div>
 			<svg class="Caminho_4" viewBox="-11.396 -6.715 10.791 6.927">
 				<path id="Caminho_4" d="M -0.7298965454101563 -4.875005722045898 C -0.5624866485595703 -5.042416572570801 -0.5624866485595703 -5.316970348358154 -0.7298965454101563 -5.484381675720215 L -1.841506004333496 -6.589293479919434 C -2.008916854858398 -6.756704807281494 -2.276774406433105 -6.756704807281494 -2.444185256958008 -6.589293479919434 L -5.999992847442627 -3.033485889434814 L -9.555800437927246 -6.589293479919434 C -9.723211288452148 -6.756704807281494 -9.991068840026855 -6.756704807281494 -10.15847969055176 -6.589293479919434 L -11.27008819580078 -5.484381675720215 C -11.43749904632568 -5.316970348358154 -11.43749904632568 -5.042416572570801 -11.27008819580078 -4.875005722045898 L -6.301332473754883 0.08705367147922516 C -6.13392162322998 0.2544645965099335 -5.866064071655273 0.2544645965099335 -5.698653221130371 0.08705367147922516 L -0.7298965454101563 -4.875005722045898 Z">
 				</path>
 			</svg>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="HOMEPAGE">
+		<div onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer" id="HOMEPAGE">
 			<span>HOMEPAGE</span>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="QUEM_SOMOS">
+		<div onclick="location.href='./DASHBOARD.html'" style="cursor: pointer" id="QUEM_SOMOS">
 			<span>QUEM SOMOS</span>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="CONTATO">
+		<div onclick="location.href='./CONTATO.html'" style="cursor: pointer" id="CONTATO">
 			<span>CONTATO</span>
 		</div>
-		<img onclick="application.goToTargetView(event)" id="Logotipo" src="images/Logotipo.png" srcset="images/Logotipo.png 1x, images/Logotipo@2x.png 2x">
-		<img onclick="application.goToTargetView(event)" id="Disk" src="images/Disk.png" srcset="images/Disk.png 1x, images/Disk@2x.png 2x">
+		<img alt="logotipo da empresa" onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer" id="Logotipo"
+			src="images/Logotipo.png" srcset="images/Logotipo.png 1x, images/Logotipo@2x.png 2x">
+		<img alt="capa do disco" onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer" id="Disk"
+			src="images/Disk.png" srcset="images/Disk.png 1x, images/Disk@2x.png 2x">
 	</div>
 	<div id="Grupo_861">
 		<div id="Home">
@@ -171,13 +172,13 @@
 					<span>POLÍTICAS</span>
 				</div>
 				<div id="Termos_de_Uso">
-					<span>Termos de Uso</span>
+					<span><a href="">Termos de Uso</a> </span>
 				</div>
 				<div id="Poltica_de_Privacidade">
-					<span>Política de<br/>Privacidade</span>
+					<span><a href="">Política de<br />Privacidade</a> </span>
 				</div>
 				<div id="Poltica_de_Retorno">
-					<span>Política de<br/>Retorno</span>
+					<span><a href="">Política de<br />Retorno</a> </span>
 				</div>
 			</div>
 			<div id="Grupo_56">
@@ -185,19 +186,19 @@
 					<span>CATEGORIAS</span>
 				</div>
 				<div id="Categoria_X">
-					<span>Categoria X</span>
+					<span><a href="">Categoria X</a></span>
 				</div>
 				<div id="Categoria_X_">
-					<span>Categoria X</span>
+					<span><a href="">Categoria X</a></span>
 				</div>
 				<div id="Categoria_X_a">
-					<span>Categoria X</span>
+					<span><a href="">Categoria X</a></span>
 				</div>
 				<div id="Categoria_X_b">
-					<span>Categoria X</span>
+					<span><a href="">Categoria X</a></span>
 				</div>
 				<div id="Categoria_X_c">
-					<span>Categoria X</span>
+					<span><a href="">Categoria X</a></span>
 				</div>
 			</div>
 			<div id="Grupo_60">
@@ -207,7 +208,8 @@
 						</path>
 					</svg>
 				</div>
-				<img id="logo_transparente" src="images/logo_transparente.png" srcset="images/logo_transparente.png 1x, images/logo_transparente@2x.png 2x">
+				<img onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer" alt="logo do site" id="logo_transparente"
+					src="images/logo_transparente.png" srcset="images/logo_transparente.png 1x, images/logo_transparente@2x.png 2x">
 			</div>
 			<div id="Grupo_64">
 				<div id="Grupo_58">
@@ -234,7 +236,7 @@
 							</rect>
 						</svg>
 						<div id="INSCREVA-SE_q">
-							<span>INSCREVA-SE</span>
+							<span onclick="location.href=''" style="cursor: pointer">INSCREVA-SE</span>
 						</div>
 					</div>
 				</div>
@@ -243,16 +245,16 @@
 				<div id="PGINAS_PRINCIPAIS">
 					<span>PÁGINAS PRINCIPAIS</span>
 				</div>
-				<div id="Categorias">
+				<div id="Categorias" onclick="location.href=''" style="cursor: pointer">
 					<span>Categorias</span>
 				</div>
-				<div id="Quem_Somos">
+				<div id="Quem_Somos" onclick="location.href='./DASHBOARD.html'" style="cursor: pointer">
 					<span>Quem Somos</span>
 				</div>
-				<div id="Contato">
+				<div id="Contato" onclick="location.href='./CONTATO.html'" style="cursor: pointer">
 					<span>Contato</span>
 				</div>
-				<div id="Homepage">
+				<div id="Homepage" onclick="location.href='./HOMEPAGE.html'" style="cursor: pointer">
 					<span>Homepage</span>
 				</div>
 			</div>
@@ -435,7 +437,7 @@
 		</div>
 	</div>
 	<div id="Grupo_840">
-		<div onclick="application.goToTargetView(event)" id="Grupo_836">
+		<div onclick="location.href='./Compra_Realizada.html'" style="cursor: pointer"id="Grupo_836">
 			<svg class="Retngulo_39_f">
 				<rect id="Retngulo_39_f" rx="0" ry="0" x="0" y="0" width="133.163" height="49">
 				</rect>
